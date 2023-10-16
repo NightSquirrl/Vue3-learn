@@ -1,1 +1,1 @@
-{"version":3,"file":"shared.cjs.js","sources":["../src/index.ts"],"sourcesContent":["let b = 1;\nexport  {\n    b\n}\n"],"names":[],"mappings":";;AAAI,IAAA,CAAC,GAAG;;;;"}
+{"version":3,"file":"shared.cjs.js","sources":["../src/index.ts"],"sourcesContent":["// 公共的方法\n\nexport function  isObject(target) {\n    return typeof target === 'object' && target !== null\n}\n"],"names":[],"mappings":";;AAAA;AAEM,SAAW,QAAQ,CAAC,MAAM,EAAA;IAC5B,OAAO,OAAO,MAAM,KAAK,QAAQ,IAAI,MAAM,KAAK,IAAI,CAAA;AACxD;;;;"}

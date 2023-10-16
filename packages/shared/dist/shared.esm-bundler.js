@@ -1,4 +1,7 @@
-let b = 1;
+// 公共的方法
+function isObject(target) {
+    return typeof target === 'object' && target !== null;
+}
 
-export { b };
+export { isObject };
 //# sourceMappingURL=shared.esm-bundler.js.map

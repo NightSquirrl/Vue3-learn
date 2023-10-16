@@ -1,4 +1,8 @@
-let a = 1;
+// 入口文件
+
 export  {
-    a
-}
+    reactive,
+    shallowReactive,
+    readonly,
+    shallowReadonly,
+} from "./reactive"
